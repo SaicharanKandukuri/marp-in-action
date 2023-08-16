@@ -19,7 +19,7 @@ jobs:
       - name: build page
         run: |
           npm i -g @marp-team/marp-cli
-          marp --html --allow-local-files --output index.html index.md
+          marp --allow-local-files --output index.html summary.md
 
       - name: commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
