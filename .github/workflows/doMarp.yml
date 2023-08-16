@@ -9,7 +9,7 @@ jobs:
   BuildAndPublishPage:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/setup-node@v3
         with:
