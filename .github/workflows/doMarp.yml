@@ -8,6 +8,8 @@ on:
 jobs:
   BuildAndPublishPage:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/setup-node@v3
         with:
