@@ -44,7 +44,7 @@ jobs:
           file_pattern: index.html
       
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v2
         with:
           path: '.'
       
